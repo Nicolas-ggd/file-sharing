@@ -2,7 +2,7 @@ include .env
 ## build: Build binary
 build:
 	@echo "Building..."
-	env CGO_ENABLED=0  go build -ldflags="-s -w" -o ${BINARY_NAME} ./cmd/file-sharing
+	env CGO_ENABLED=0  go build -ldflags="-s -w" -o ${BINARY_NAME} ./cmd/filesharing
 	@echo "Built!"
 
 ## run: builds and runs the application
