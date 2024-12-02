@@ -1,0 +1,7 @@
+.env
+.idea
+.vscode
+
+// ignore building file
+file-sharing
+file-sharing.*
